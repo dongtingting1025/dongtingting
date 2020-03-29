@@ -1,0 +1,26 @@
+[
+  {
+    "description": "这是一个没有带参数的get请求",
+    "request": {
+      "uri": "/getDemo",
+      "method": "get"
+    },
+    "response": {
+      "text": "这是一个没有带参数的get请求"
+    }
+  },
+  {
+    "description": "这是一个带参数的get请求",
+    "request": {
+      "uri": "/getWith",
+      "method": "get",
+      "queries": {
+        "name": "dtt",
+        "age": "10"
+      }
+    },
+    "response": {
+      "text": "我董图图回来啦！"
+    }
+  }
+]
